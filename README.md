@@ -24,3 +24,11 @@ The default MQTT topic in this file is `rfsend`.  That will tell it to subscribe
     {"button": "zshine/1_up"}
 
 It will confirm by publishing the same message back to the response topic: `cmd/rfsend/resp`
+
+## Hubitat setup for Zshine blinds
+- Add the driver `mqtt-zshine.groovy` to your Hubitat
+- Create a new device with the type `MQTT Zshine blinds`
+- If you have multiple blinds that use the different channels on the remote (red numbers) put that number in the device preferences Channel number field.
+
+# TODO:
+- The included `.sub` files only have channel 1 for now.  I'll add channels 2 - 6 at some point.
