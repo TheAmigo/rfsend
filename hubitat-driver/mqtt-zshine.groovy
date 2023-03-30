@@ -6,7 +6,7 @@
 import groovy.json.JsonSlurper
 
 metadata {
-    definition (name: "MQTT Zshine blinds", namespace: "amigo", author: "Josh Harding", importUrl: "https://raw.githubusercontent.com/TheAmigo/rfsend/hubitat-driver/mqtt-zshine.groovy") {
+    definition (name: "MQTT Zshine blinds", namespace: "amigo", author: "Josh Harding", importUrl: "https://raw.githubusercontent.com/TheAmigo/rfsend/main/hubitat-driver/mqtt-zshine.groovy") {
         capability "WindowShade"
     }
 
