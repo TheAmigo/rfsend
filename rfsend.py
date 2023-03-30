@@ -17,8 +17,8 @@ config['queue_len'] = 1
 
 topic_req = f'cmd/{topic}/req'
 topic_resp = f'cmd/{topic}/resp'
-rf_pwr   = Pin(14, Pin.OUT)
-rf_xmit  = Pin(15, Pin.OUT)
+rf_pwr   = Pin(2, Pin.OUT)
+rf_xmit  = Pin(3, Pin.OUT)
 raw_data = re.compile("^RAW_Data: ")
 led = Pin("LED", Pin.OUT)
 
