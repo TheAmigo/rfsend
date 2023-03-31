@@ -22,9 +22,9 @@ metadata {
 def sendCmd(String cmd) {
     topic = "cmd/${settings?.topic}/req"
  
-    file_name = ""
+    file_name = "zshine/"
     if (settings.channel > 0) {
-        file_name = "${settings?.channel}_"
+        file_name = file_name + "${settings?.channel}_"
     }
     file_name = file_name + cmd
     payload = '{"button": "' + file_name + '"}'
