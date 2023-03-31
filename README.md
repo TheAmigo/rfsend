@@ -9,7 +9,7 @@ At the moment it only supports .sub files captured using Read RAW with AM modula
   - Set your WiFi SSID and password
   - Set your MQTT broker's IP
   - Set the topic to which it will listen
-  - Rename it to `code.py` so it will run when at power on
+  - Rename it to `boot.py` so it will run when at power on
 - Upload this code with a tool like [Thonny](https://thonny.org/)
 - Upload some `.sub` files captured with the Flipper Zero into a directory named `buttons`
 - Attach an RF transmitter like this [FS1000A](https://amazon.com/dp/B00LNADJS6) (the receiver isn't used)
